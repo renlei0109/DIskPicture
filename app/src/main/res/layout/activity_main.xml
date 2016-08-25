@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/home_free_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+
+        android:layout_marginTop="10dp"
+        >
+
+        <com.example.renren.diskpic.EditTextWithClearButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="请输入你的序列号"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:text="匹配"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:background="@android:color/holo_blue_dark" />
+    </LinearLayout>
+
+</RelativeLayout>

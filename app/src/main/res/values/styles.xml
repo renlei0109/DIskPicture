@@ -1,0 +1,18 @@
+<resources>
+
+
+    <!-- 左侧带清空按钮文本编辑框 EditTextWithClearButton 的自定义属性 -->
+    <declare-styleable name="EditTextWithClearButton">
+        <!-- 自定义清空按钮绘制素材 -->
+        <attr name="clearButtonDrawable" format="integer"/>
+        <!-- 自定义清空按钮位置水平偏移 -->
+        <attr name="clearButtonOffset" format="dimension"/>
+    </declare-styleable>
+    <style name="MyAppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- you should set typeface which you want to override with TypefaceUtil -->
+        <!--<item name="fontPath">fonts/SF_Regular.otf</item>-->
+        <!--<item name="colorPrimary">@color/black</item>-->
+        <!--<item name="colorPrimaryDark">@color/black</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+</resources>
